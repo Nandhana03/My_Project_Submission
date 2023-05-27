@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="D:\web dev projects\Model Projects\Model Project-1\flex.css"/>
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+  />
+    <title>Document</title>
+</head>
+<!--<style>
+    .container
+    {
+       max-width:960px;
+       margin:100px auto;
+       padding:10px;
+       display:grid;
+       grid-template-columns:1fr 1fr 1fr;
+       grid-auto-rows:minmax(100px 200px);
+    }
+    .item
+    {
+        background-color:steelblue;
+        color:#fff;
+        border:skyblue 1px solid;
+        font-size:20px;
+        padding:20px;
+
+    }
+    .containers
+    {
+        max-width:960px;
+       margin:100px auto;
+       padding:10px;
+       display:grid;
+       grid-template-columns:repeat( 2,1fr);
+    }
+    .items
+    {
+        background-color: palevioletred;
+        border:1px #fff solid;
+        color:brown;
+        font-size:20px;
+        padding:20px;
+    }
+</style>-->
+<body>
+     <nav class="navbar">
+         <div class="container">
+            <div class="logo">Flexbox</div>
+              <ul class="nav">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+              </ul>
+          </div>
+     </nav>
+     <header class="header">
+        <div class="container">
+          <div>
+            <h1>Flexbox Crash Course</h1>
+            <p> This crash course was created by Brad Traversy to help you learn the
+                basics of flexbox. Flexbox is a very important and useful tool in
+                CSS.
+            </p>
+          </div>  
+         <!-- <svg width="900" height="300">
+            <rect x="50" y="20" rx="130" ry="250" width="250" height="250"
+            style="fill:rgb(11, 165, 226);stroke:rgb(6, 59, 134);stroke-width:5;opacity:1" />
+          Sorry, your browser does not support inline SVG.
+          </svg>-->
+          <svg height="210" width="300">
+            <defs>
+              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%"
+                style="stop-color:rgb(98, 220, 241);stop-opacity:1" />
+                <stop offset="100%"
+                style="stop-color:rgb(0, 128, 255);stop-opacity:1" />
+              </linearGradient>
+            </defs>
+            <ellipse cx="100" cy="100" rx="100" ry="100" fill="url(#grad1)" />
+            <text fill="#ffffff" font-size="50" font-family="Verdana"
+            x="50" y="110">FLEX</text>
+          Sorry, your browser does not support inline SVG.
+          </svg>
+          
+        </div>
+     </header>
+     <section class="boxes">
+        <div class="container">
+            <div class="box">
+                <h2><i class="fas fa-arrows-alt-v"></i>Alignment & Space</h2>
+                <p>
+                    A more efficient way to lay out, align and distribute space among
+                    items in a container
+                </p>
+            </div>
+
+            <div class="box">
+                <h2><i class="fas fa-arrows-alt"></i>Tricky Positioning</h2>
+                <p>
+                  Flexbox usually solves tricky problems including how to position or
+                  dynamically resize elements on a page
+                </p>
+              </div>
+
+              <div class="box">
+                <h2><i class="fas fa-mobile"></i>Responsive Design</h2>
+                <p>
+                  Flexbox makes building a website layout (and making it responsive!)
+                  much, much easier
+                </p>
+              </div>
+        </div>
+     </section>
+</body>
+</html>

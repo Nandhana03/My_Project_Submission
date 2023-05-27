@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="D:\web dev projects\Project 2\style.css"/>
+    <title>Survey Form</title>
+</head>
+<body>
+    <form>
+    <div class="msg-panel">
+        <h2>Customer Satisfactory Survey</h2>
+        <p>Please help us improve by taking the short survey.We value your feedback</p>
+    </div>
+    <form method="POST" action="Project 2\response.html">
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" class="line-color">
+        </div>
+        <div>
+            <p>How satisfied are you with the service you recieved?</p>
+            <input type="radio" value="Very Satisfied" id="option-1" name="service_rate">
+            <label for="option-1">Very Satisfied</label>
+            <br>
+            <input type="radio" value="Somewhat Satisfied" id="option-2" name="service_rate">
+            <label for="option-2">Somewhat Satisfied</label>
+            <br>
+            <input type="radio" value="Neutral" name="service_rate" id="option-3">
+            <label for="option-3">Neutral</label>
+            <br>
+            <input type="radio" value="Somewhat Dissatisfied" name="service_rate" id="option-4">
+            <label for="option-4">Somewhat Dissatisfied</label>
+            <br>
+            <input type="radio" value="Dissatisfied" name="service_rate" id="option-5">
+            <label for="option-5">Dissatisfied</label>
+            <br>
+        </div>
+        <div>
+            <p>Please rate our products</p>
+            <label for="r-0" style="float: left; padding-right: 18px; padding-left:6px;">0</label>
+            <label for="r-1" style="float: left; padding-right: 18px;">1</label>
+            <label for="r-2" style="float: left; padding-right: 17px;">2</label>
+            <label for="r-3" style="float: left; padding-right: 16px;">3</label>
+            <label for="r-4" style="float: left; padding-right: 17px;">4</label>
+            <label for="r-5" style="float: left; padding-right: 1px;">5</label>
+            <br>
+            <input type="radio" id="r-0" name="rating" value="0">
+            <input type="radio" id="r-1" name="rating" value="1">
+            <input type="radio" id="r-2" name="rating" value="2">
+            <input type="radio" id="r-3" name="rating" value="3">
+            <input type="radio" id="r-4" name="rating" value="4">
+            <input type="radio" id="r-5" name="rating" value="5">
+        </div>
+        <div>
+        <p>Select the products that you enjoyed the most</p>
+        <input type="checkbox" value="Promax Earphones" name="products" id="prod-1">
+        <label for="prod-1">Promax Earphones</label>
+        <br>
+        <input type="checkbox" value="Headsets" name="products" id="prod-2">
+        <label for="prod-2">Headsets</label>
+        <br>
+        <input type="checkbox" value="Airpods" name="products" id="prod-3">
+        <label for="prod-3">Airpods</label>
+        <br>
+        <input type="checkbox" value="Bluetooth Speaker" name="products" id="prod-4">
+        <label for="prod-4">Bluetooth Speaker</label>
+        </div>
+        <div>
+            <label for="feedback">Share your thoughts with us</label><br>
+            <textarea id="feedback" rows="1" cols="50" name="feedback" class="line-color"></textarea>
+        </div>
+        <button id="submit"><a href="D:\web dev projects\Project 2\response.html">Submit</a></button>
+         v
+    </form>
+</body>
+</html>
